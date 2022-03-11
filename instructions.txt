@@ -1,0 +1,21 @@
+Prerequisites
+    • "passwordless" ssh key https://linuxize.com/post/how-to-setup-passwordless-ssh-login/
+    • list of ip adresses of boxes with enabled ssh
+
+To Run
+    Step 1 - git clone or download and unzip project locally
+    Step 2 - add new line separated ips to 'iplist.txt' (machines to init)
+    Step 3 - chmod +x initremote.sh
+    Step 4 - ./initremote.sh < path_to_rsa_private_key >
+       Example ./initremote.sh ~/.ssh/id_rsa
+
+Config (below parameters are set in scripts/sendpackets.py)
+
+# static urls to add to target url list, update manually if needed
+static_urls=[ "url here" ]
+
+# num of parallel worker processes, update manually if needed
+process_count=30
+
+# max num of dynamicly resolved urls (blue/green from https://ddosmonitor.herokuapp.com/), update manually if needed
+dynamic_urls_count=100
