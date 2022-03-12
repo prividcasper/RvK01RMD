@@ -10,6 +10,8 @@ used_random_ports = [80, 443]
 
 port_value = random.choice(used_random_ports)
 
+processes = 30
+
 # Open file with hosts
 with open('sites.txt') as f:
     sites = f.readlines()
@@ -81,7 +83,7 @@ def send_packets():
 
 # Create multithreading job list
 process_list = []
-for i in range(10):
+for i in range(processes):
     packet_size = random.randint(10, 20)
     bytes = random._urandom(packet_size)
 
