@@ -1,0 +1,18 @@
+2022-03-13 20:45:31,908 - simple_example - DEBUG - debug message
+2022-03-13 20:45:31,909 - simple_example - INFO - info message
+2022-03-13 20:45:31,909 - simple_example - WARNING - warn message
+2022-03-13 20:45:31,909 - simple_example - ERROR - error message
+2022-03-13 20:45:31,909 - simple_example - CRITICAL - critical message
+2022-03-13 20:50:58,921 - simple_example - INFO - Resolving hostnames, please wait...
+
+2022-03-13 20:51:23,780 - simple_example - DEBUG - debug message
+2022-03-13 20:51:23,780 - simple_example - INFO - info message
+2022-03-13 20:51:23,780 - simple_example - WARNING - warn message
+2022-03-13 20:51:23,781 - simple_example - ERROR - error message
+2022-03-13 20:51:23,781 - simple_example - CRITICAL - critical message
+2022-03-13 20:51:48,901 - simple_example - DEBUG - debug message
+2022-03-13 20:51:48,901 - simple_example - INFO - info message
+2022-03-13 20:51:48,901 - simple_example - ERROR - error message
+2022-03-13 20:51:48,902 - simple_example - CRITICAL - critical message
+2022-03-13 20:51:57,957 - simple_example - CRITICAL - critical message
+2022-03-13 20:52:28,036 - simple_example - INFO - info message
